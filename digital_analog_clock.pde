@@ -5,14 +5,8 @@ void setup()
 }
 void draw()
 {
-    background(0);
-    textSize(35);
-    fill(255);
-    text("Analog-Digital Clock", 10, 35);
-    textSize(12.5);
-    fill(200);
-    text("By Lucas Martin de Macedo Gagliano", 10, 55);
-    translate(width / 2, height / 2);
+  background(0);
+  translate(width / 2, height / 2);
 
   textSize(15);
   fill(255, 0, 0);
